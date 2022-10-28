@@ -1,8 +1,16 @@
 import React from 'react'
+import ContactItem from './ContactItem'
+import SearchBox from './SearchBox'
 
 const ContactList = () => {
   return (
-    <div>ContactList</div>
+    <div>
+        <SearchBox />
+        <ContactItem />
+        <ContactItem />
+        <ContactItem />
+        <ContactItem />
+    </div>
   )
 }
 

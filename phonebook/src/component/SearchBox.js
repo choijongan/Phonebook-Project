@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Row } from 'react-bootstrap'
+import { Button, Row, Col, Form } from 'react-bootstrap'
 
 const SearchBox = () => {
   return (
