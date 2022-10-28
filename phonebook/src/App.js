@@ -17,7 +17,9 @@ function App() {
           <Col>
             <ContactForm />
           </Col>
-          <Col></Col>
+          <Col>
+            <ContactList />
+          </Col>
         </Row>
       </Container>
     </div>
