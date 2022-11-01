@@ -1,6 +1,6 @@
-import { createStore } from "redux";
+import { legacy_createStore } from "redux";
 import reducer from "./reducer/reducer"
 
-let store = createStore(reducer)
+let store = legacy_createStore(reducer)
 
 export default store;
