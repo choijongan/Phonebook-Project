@@ -6,7 +6,7 @@ const ContactItem = ({item}) => {
     <Row>
     <Col lg={2}>
         <img
-        width={50} 
+        width={70} 
         src='https://upload.wikimedia.org/wikipedia/commons/b/bc/Unknown_person.jpg' />
     </Col>
     <Col lg={10}>
