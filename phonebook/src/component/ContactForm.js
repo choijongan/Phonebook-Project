@@ -9,7 +9,7 @@ const ContactForm = () => {
   const dispatch = useDispatch();
 
   const addContact=(event)=> {
-    event.preventDefault();
+    event.preventDefault(); //계속 새로고침되는걸 막아줌.
     dispatch({type:"ADD_CONTACT" , payload:{name, phoneNumber}})
   }
  
